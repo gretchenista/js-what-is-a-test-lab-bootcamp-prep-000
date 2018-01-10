@@ -15,7 +15,7 @@ describe('what-is-a-test', () => {
   })
 
   describe('Message', () => {
-    it(' is 74 inches tall  ', () => {
+    it('   ', () => {
       expect(index.message).toInclude(index.name)
       expect(index.message).toInclude(index.height)
     })
